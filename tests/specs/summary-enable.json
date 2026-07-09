@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Enable Morning Summary",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure and enable the optional daily morning summary"
+            }
+          }
+        ],
+        "send": {
+          "callback": "summary:enable"
+        }
+      }
+    ]
+  }
+]
