@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Manage Watchlist",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Open the watchlist management interface with inline buttons"
+            }
+          }
+        ],
+        "send": {
+          "callback": "watchlist:manage"
+        }
+      }
+    ]
+  }
+]
